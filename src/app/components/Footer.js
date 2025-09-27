@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center text-gray-300">
                 <EnvelopeIcon className="h-5 w-5 mr-3 text-amber-400" />
-                <span>info@luxegems.com</span>
+                <span>info@gulshanjewellers.com</span>
               </div>
             </div>
           </div>
