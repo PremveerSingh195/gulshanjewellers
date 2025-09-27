@@ -203,33 +203,18 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-700 pt-8 mt-8">
-          <div className="text-center text-gray-400 text-sm">
-            <p className="flex items-center justify-center">
-              © 2025 Gulshan Jewellers. Made with
-              <HeartIcon className="h-4 w-4 mx-1 text-red-500" />
-              in India. All rights reserved.
+        <div className="border-t border-gray-700 pt-6 mt-8">
+          <div className="text-center text-gray-400 text-xs sm:text-sm px-2">
+            {/* Text line */}
+            <p className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 text-center">
+              <span>© 2025 Gulshan Jewellers.</span>
+              <span className="flex items-center justify-center">
+                Made with
+                <HeartIcon className="h-4 w-4 mx-1 text-red-500" />
+                in India.
+              </span>
+              <span>All rights reserved.</span>
             </p>
-            <div className="mt-2 space-x-6">
-              <Link
-                href="/privacy"
-                className="hover:text-amber-400 transition-colors duration-200"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/terms"
-                className="hover:text-amber-400 transition-colors duration-200"
-              >
-                Terms of Service
-              </Link>
-              <Link
-                href="/cookies"
-                className="hover:text-amber-400 transition-colors duration-200"
-              >
-                Cookie Policy
-              </Link>
-            </div>
           </div>
         </div>
       </div>
